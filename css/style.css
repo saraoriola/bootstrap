@@ -1,11 +1,18 @@
-
 body {
   background-color: #222222;
-  color: #FFFFFF;
+  color: #ffffff;
+  font-family: 'Kanit', sans-serif;
 }
 
+.logo-name {
+  color: #222;
+  font-size: 40px;
+  margin-left: 10px;
+  vertical-align: middle;
+  font-weight: bold;
+}
 .navbar-brand {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .navbar-nav .nav-link {
@@ -13,7 +20,7 @@ body {
 }
 
 .navbar-toggler {
-  border-color: #FFFFFF;
+  border-color: #ffffff;
 }
 
 .navbar-toggler i {
@@ -23,21 +30,125 @@ body {
 .btn-black {
   background-color: #222222;
   border-color: #222222;
-  color:  #bb00bb;
+  color: #bb00bb;
   font-weight: bold;
 }
 
 .btn-black:hover {
   background-color: #bb00bb;
-  border-color:  #bb00bb;
+  border-color: #bb00bb;
   color: #222222;
 }
 
-.banner {
-  background-color: #222222;
-  color: #FFFFFF;
-  background-image: url("../assets/gamer.jpg");
-  background-repeat: no-repeat;
+#banner {
+  background-image: url('/assets/teclado.jpg');
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+}
+
+.hero {
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  background-color: rgba(34, 34, 34, 0.7); 
+  box-shadow: 0 0 10px rgba(255, 0, 255, 1); 
+  border-radius: 10px;
+}
+
+.hero h1 {
+  color: #ffffff;
+  font-size: 36px;
+  margin-bottom: 20px;
+  opacity: 1;
+}
+
+.hero p {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 30px;
+  opacity: 1;
+}
+
+#marketplace {
+  background-color: #222222;
+  border-color: #222222;
+  color: #bb00bb;
+  font-weight: bold;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#marketplace:hover {
+  background-color: #bb00bb;
+  border-color: #bb00bb;
+  color: #222222;
+}
+
+
+
+/* FORMULARIO */
+/* style.css */
+
+/* Estilos para el formulario */
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+
+  border-radius: 3px;
+}
+
+.error {
+  color: red;
+  font-style: italic;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+#hack {
+  background-image: url('/assets/hack.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+}
+
+
+
+.d-none {
+  display: none;
 }

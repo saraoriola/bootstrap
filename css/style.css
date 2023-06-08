@@ -1,44 +1,43 @@
 
 body {
-    background-color: #011A38;
-    color: #FFFFFF;
-  }
-  
-  .navbar-brand {
-    color: #FFFFFF;
-  }
-  
-  .navbar-nav .nav-link {
-    color: #011A38;
-  }
-  
-  .navbar-toggler {
-    border-color: #FFFFFF;
-  }
-  
-  .navbar-toggler i {
-    color: #F25D27;
-  }
-  
-  .btn-black {
-    background-color: #011A38;
-    border-color: #011A38;
-    color: #F25D27;
-    font-weight: bold;
-  }
-  
-  .btn-black:hover {
-    background-color: #F25D27;
-    border-color: #F25D27;
-    color: #011A38;
-  }
-  
-  .banner {
-    background-color: #011A38;
-    color: #FFFFFF;
-    background-image: url("../assets/gamer.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-  
+  background-color: #222222;
+  color: #FFFFFF;
+}
+
+.navbar-brand {
+  color: #FFFFFF;
+}
+
+.navbar-nav .nav-link {
+  color: #222222;
+}
+
+.navbar-toggler {
+  border-color: #FFFFFF;
+}
+
+.navbar-toggler i {
+  color: #bb00bb;
+}
+
+.btn-black {
+  background-color: #222222;
+  border-color: #222222;
+  color:  #bb00bb;
+  font-weight: bold;
+}
+
+.btn-black:hover {
+  background-color: #bb00bb;
+  border-color:  #bb00bb;
+  color: #222222;
+}
+
+.banner {
+  background-color: #222222;
+  color: #FFFFFF;
+  background-image: url("../assets/gamer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

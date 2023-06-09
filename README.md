@@ -66,3 +66,8 @@
 
 <p>In conclusion, this research project has allowed us to explore and deeply understand the potential of Bootstrap in combination with JS, HTML, and CSS. We have discovered that Bootstrap is a valuable tool for web development, providing a solid foundation, customizable components, and a flexible grid system.</p>
 
+## 💻 Preview 
+
+- General overview gif
+
+![foto](./src/assets/muestraok.gif)

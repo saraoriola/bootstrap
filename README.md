@@ -70,4 +70,4 @@
 
 - General overview gif
 
-![foto](./src/assets/muestraok.gif)
+![foto](./assets/muestraok.gif)
